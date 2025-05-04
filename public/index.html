@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WhatsApp Bulk Sender</title>
+</head>
+<body>
+  <h1>Send WhatsApp Messages</h1>
+  <form action="/send" method="POST" enctype="multipart/form-data">
+    <label>Upload Excel File (.xlsx):</label><br>
+    <input type="file" name="excelFile" required><br><br>
+    <label>Message (use {name} as placeholder):</label><br>
+    <textarea name="message" rows="4" cols="50" required>Hi {name}, your order is ready!</textarea><br><br>
+    <button type="submit">Send Messages</button>
+  </form>
+</body>
+</html>
