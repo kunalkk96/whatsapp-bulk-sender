@@ -1,8 +1,9 @@
 {
   "name": "whatsapp-bulk-sender",
   "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "puppeteer": {
     "skip_chromium_download": true
